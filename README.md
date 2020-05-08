@@ -9,32 +9,6 @@ When making a VR unity project for use with XR Management, to save time you can 
 
 **Latest Unity version tested: 2019.3.13f1**
 
-# Generating a repository from this template
-Go to the top of this repository and click 'Use this template'
-
-
-Select the owner of the new repository
-
-
-Enter a name for your new repository
-
-
-Click create repository.
-
-
-You will need to rename the unity project within unity to the name of your own VR project but this is simple.
-
-
-Go to Project Settings -> Player -> Change the text in the fields product name / company name to your own project and company.
-
-
-This is now ready to use, but you can tryout the example scene by opening an example scene:
-```
-Assets/Scenes/XRTemplate/InteractibleCubeScene
-```
-
-You can switch between Android and PC development by changing the platform target. The unity project has been full setup for use in both. 
-
 # XR Manager in a new project
 Install XR Management Toolkit & XR Plugin Management from the package manager (Window -> Package Manager)
 
@@ -64,7 +38,6 @@ Plugin Oculus Quest
 
 
 Build and run
-
 
 # Run in Virtual Desktop
 Virtual Desktop allows you to run almost any game from Oculus Store or Steam VR via WiFi on the Oculus Quest.
@@ -99,6 +72,31 @@ Choose the exe in the build directory of this project
 
 This should run the application inside the Quest!
 
+# Generating a repository from this template
+Go to the top of this repository and click 'Use this template'
+
+
+Select the owner of the new repository
+
+
+Enter a name for your new repository
+
+
+Click create repository.
+
+
+You will need to rename the unity project within unity to the name of your own VR project but this is simple.
+
+
+Go to Project Settings -> Player -> Change the text in the fields product name / company name to your own project and company.
+
+
+This is now ready to use, but you can tryout the example scene by opening an example scene:
+```
+Assets/Scenes/XRTemplate/InteractibleCubeScene
+```
+
+You can switch between Android and PC development by changing the platform target. The unity project has been full setup for use in both. 
 
 # Useful guides
 Unity provides guide on using XR Management Toolkit [here](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@0.9/manual/index.html)
