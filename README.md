@@ -100,7 +100,7 @@ This should run the application inside the Quest!
 Unity provides guide on using XR Management Toolkit [here](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@0.9/manual/index.html)
 
 # Unity SteamVR support
-If you would like to use SteamVR in your unity project rather than XR Management then use this [github template repository](www.google.com) instead.
+If you would like to use SteamVR in your unity project rather than XR Management then use this [github template repository](https://github.com/KnightVR/SteamVRTemplate) instead.
 
 
 This is neccessary as Unity XR Manager does not support SteamVR. When and if this is added, these two will be joined.
