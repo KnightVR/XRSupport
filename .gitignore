@@ -34,3 +34,5 @@ sysinfo.txt
 
 # Keep all readme's
 !*README.md
+# Keep all inno installers scripts
+!*.iss
