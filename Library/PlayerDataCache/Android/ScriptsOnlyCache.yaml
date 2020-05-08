@@ -696,4 +696,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/XR Support/Scenes/InteractableCubeScene.unity
-  playerPath: C:/Unity/VRSupport/XRSupport/Build/Oculus Quest/XRSupport.apk
+  playerPath: C:/Unity/VRSupport/XRSupport/Build/Oculus Quest/XRSupport-0.1-OculusQuest.apk

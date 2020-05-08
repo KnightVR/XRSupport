@@ -27,7 +27,7 @@ ScriptsOnlyBuild:
     UnityEngine.SpatialTracking.dll:
     - UnityEngine.SpatialTracking.TrackedPoseDriver
   sceneClasses:
-    Assets/XR Template/Scenes/InteractableCubeScene.unity:
+    Assets/XR Support/Scenes/InteractableCubeScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -695,5 +695,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 19
   scenePathNames:
-  - Assets/XR Template/Scenes/InteractableCubeScene.unity
-  playerPath: C:/Unity/VRSupport/XRSupport/Build/Oculus PC VR/XRSupport.exe
+  - Assets/XR Support/Scenes/InteractableCubeScene.unity
+  playerPath: C:/Unity/VRSupport/XRSupport/Build/Oculus PC VR/Release/Win64/XRSupport.exe
