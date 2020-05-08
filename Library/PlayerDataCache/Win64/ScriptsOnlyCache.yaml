@@ -696,4 +696,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/XR Template/Scenes/InteractableCubeScene.unity
-  playerPath: C:/Unity/VRTemplate/XRTemplate/Build/Oculus PC VR/XRTemplate.exe
+  playerPath: C:/Unity/VRSupport/XRSupport/Build/Oculus PC VR/XRSupport.exe

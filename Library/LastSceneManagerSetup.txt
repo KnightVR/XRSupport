@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/XR Template/Scenes/InteractableCubeScene.unity
+- path: Assets/XR Support/Scenes/InteractableCubeScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
