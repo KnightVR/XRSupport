@@ -17,8 +17,6 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
-    Unity.XR.Oculus.Editor.dll:
-    - Unity.XR.Oculus.Editor.OculusSettingsEditor
     Unity.XR.Oculus.dll:
     - Unity.XR.Oculus.OculusLoader
     - Unity.XR.Oculus.OculusSettings
@@ -698,4 +696,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/XR Template/Scenes/InteractableCubeScene.unity
-  playerPath: C:/Unity/XRTemplate/Build/PC/XRTemplate.exe
+  playerPath: C:/Unity/VRTemplate/XRTemplate/Build/Oculus PC VR/XRTemplate.exe
