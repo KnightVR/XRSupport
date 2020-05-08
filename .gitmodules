@@ -1,3 +1,6 @@
 [submodule "Assets\\KVR\\Logo"]
 	path = Assets\\KVR\\Logo
 	url = https://github.com/KnightVR/Logo
+[submodule "BuildRelease"]
+	path = BuildRelease
+	url = https://github.com/KnightVR/BuildRelease.git

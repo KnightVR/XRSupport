@@ -31,23 +31,3 @@ ehthumbs.db
 [Bb]uild/*
 sysinfo.txt
 *.stackdump
-
-# Keep all readme's (mostly used to keep folder structure for builds)
-!Build/Oculus PC VR/
-Build/Oculus PC VR/*
-!Build/Oculus PC VR/Release/
-Build/Oculus PC VR/Release/*
-!Build/Oculus PC VR/Release/Win64/
-Build/Oculus PC VR/Release/Win64/*
-!Build/Oculus PC VR/Release/Win64/README.md
-!Build/Oculus Quest/
-Build/Oculus Quest/*
-!Build/Oculus Quest/README.md
-!Build/Steam VR/
-Build/Steam VR/*
-!Build/Steam VR/README.md
-!Build/Unity Package/
-Build/Unity Package/*
-!Build/Unity Package/README.md
-# Keep inno installer scripts
-!Build/Oculus PC VR/Installer/installer.iss
