@@ -1,6 +1,7 @@
 # XR Manager Template
 
 This github template repository includes a full unity project that is setup and ready to go for XR Management for use with Oculus.
+It is adivised to instead use the unity package provided in releases and follow the 'XR Manager in a new project' instructions below. 
 
 
 When making a VR unity project for use with XR Management, to save time you can generate a new github repository from this template and be ready to go!
