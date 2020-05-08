@@ -6,7 +6,7 @@
 #define AppVersion "0.1"
 #define CompanyName "KnightVR"
 #define InstallerName "XRSupport"
-#define ExeName "XRSupport.exe"
+#define ExeName "XRSupport.exe" 
 #define IconFile "kvr_logo.ico"
 #define IconFolder "../../../Assets/KVR/Logo/"
 #define BuildFolder "../Release/Win64/"
