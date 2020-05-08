@@ -9,10 +9,7 @@ When making a VR unity project for use with XR Management, to save time you can 
 **Latest Unity version tested: 2019.3.13f1**
 
 # Generating a repository from this template
-Go to this repositories github [here](www.google.com)
-
-
-Click 'Use this template'
+Go to the top of this repository and click 'Use this template'
 
 
 Select the owner of the new repository
