@@ -18,12 +18,14 @@ ehthumbs.db
 [Ee]xported[Oo]bj/
 *.userprefs
 *.csproj
+*.cache
 *.pidb
 *.suo
 *.sln
 *.user
 *.unityproj
 *.booproj
+*TemporaryGeneratedFile*
 
 # Unity generated
 # ===============
@@ -31,3 +33,5 @@ ehthumbs.db
 [Bb]uild/*
 sysinfo.txt
 *.stackdump
+
+.vs/*

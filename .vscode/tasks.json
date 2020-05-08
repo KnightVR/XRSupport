@@ -24,7 +24,16 @@
         {
             "label": "Build Win64",
             "type": "shell",
-            "command": "Unity.exe -quit -batchmode -projectPath ${workspaceFolder} -buildWindows64Player \"${workspaceFolder}\\BuildRelease\\Oculus PC VR\\Release\\Win64\\XRSupport.exe\"",
+            "command": "Unity.exe -quit -projectPath ${workspaceFolder} -build_target Win64 -executeMethod Autobuilder.Win64Build",
+            "options": {
+                "cwd": "C:/Program Files/Unity/Hub/Editor/2019.3.13f1/Editor/"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Build Android",
+            "type": "shell",
+            "command": "Unity.exe -projectPath ${workspaceFolder} -build_target Android -executeMethod Autobuilder.AndroidBuild",
             "options": {
                 "cwd": "C:/Program Files/Unity/Hub/Editor/2019.3.13f1/Editor/"
             },
