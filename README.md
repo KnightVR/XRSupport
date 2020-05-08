@@ -6,7 +6,7 @@ This github template repository includes a full unity project that is setup and 
 When making a VR unity project for use with XR Management, to save time you can generate a new github repository from this template and be ready to go!
 
 
-**Latest Unity version tested: 2019.3.12f1**
+**Latest Unity version tested: 2019.3.13f1**
 
 # Generating a repository from this template
 Go to this repositories github [here](www.google.com)
@@ -32,7 +32,7 @@ Go to Project Settings -> Player -> Change the text in the fields product name /
 
 This is now ready to use, but you can tryout the example scene by opening an example scene:
 ```
-Assets/Scenes/SampleScene
+Assets/Scenes/XRTemplate/InteractibleCubeScene
 ```
 
 # XR Manager in a new project
