@@ -73,17 +73,31 @@ Choose the exe in the build directory of this project
 This should run the application inside the Quest!
 
 # Generating a repository from this template
-Go to the top of this repository and click 'Use this template'
+Clone this repository
+```
+git clone https://github.com/KnightVR/XRSupport.git
+```
+Delete the git folder
+```
+rmdir /s PATH_TO_REPO/.git
+```
+Create your own git repositroy on github
 
+Initalise new repository
+```
+git add .
+git commit -m "init commit"
+```
 
-Select the owner of the new repository
+Set the remote url to your new repository
+```
+git remote set-url origin YOUR_NEW_REPO_URL
+```
 
-
-Enter a name for your new repository
-
-
-Click create repository.
-
+Push repository to remote
+```
+git push -u origin master
+```
 
 You will need to rename the unity project within unity to the name of your own VR project but this is simple.
 
