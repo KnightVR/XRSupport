@@ -65,15 +65,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12418}
     - Class: 114
-      Script: {instanceID: 12666}
+      Script: {instanceID: 12664}
     - Class: 114
-      Script: {instanceID: 12742}
+      Script: {instanceID: 12740}
     - Class: 114
-      Script: {instanceID: 12940}
+      Script: {instanceID: 12938}
     - Class: 114
-      Script: {instanceID: 13230}
+      Script: {instanceID: 13228}
     - Class: 114
-      Script: {instanceID: 13298}
+      Script: {instanceID: 13296}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -696,4 +696,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/XR Support/Scenes/InteractableCubeScene.unity
-  playerPath: C:/Unity/VRSupport/XRSupport/BuildRelease/Oculus Quest/XRSupport-0.1-Android.apk
+  playerPath: C:/Unity/VRSupport/XRSupport/XRBuild/XRAndroid/XRSupport-0.1-Android.apk

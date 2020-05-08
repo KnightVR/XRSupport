@@ -57,13 +57,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11782}
+      Script: {instanceID: 11784}
     - Class: 114
-      Script: {instanceID: 11930}
+      Script: {instanceID: 11932}
     - Class: 114
-      Script: {instanceID: 12120}
+      Script: {instanceID: 12122}
     - Class: 114
-      Script: {instanceID: 12416}
+      Script: {instanceID: 12418}
     - Class: 114
       Script: {instanceID: 12664}
     - Class: 114
@@ -696,4 +696,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/XR Support/Scenes/InteractableCubeScene.unity
-  playerPath: C:/Unity/VRSupport/XRSupport/BuildRelease/Oculus PC VR/Release/Win64/XRSupport.exe
+  playerPath: C:/Unity/VRSupport/XRSupport/XRBuild/XRPC/Win64/XRSupport.exe
