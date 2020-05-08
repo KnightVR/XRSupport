@@ -8,16 +8,16 @@
             "type": "shell",
             "command": "gen_installer \"XR Support\" \"0.1\" \"KnightVR\"",
             "options": {
-                "cwd": "${workspaceFolder}/BuildRelease/Oculus PC VR/Installer"
+                "cwd": "${workspaceFolder}/XRBuild/XRPC/Installer"
             },
             "problemMatcher": []
         },
         {
             "label": "Compile Win64 Installer",
             "type": "shell",
-            "command": "\"${workspaceFolder}\\BuildRelease\\Inno\\Inno Setup 6\\Compil32.exe\" /cc XRSupport_installer.iss",
+            "command": "\"${workspaceFolder}\\XRBuild\\Inno\\Inno Setup 6\\Compil32.exe\" /cc XRSupport_installer.iss",
             "options": {
-                "cwd": "${workspaceFolder}\\BuildRelease\\Oculus PC VR\\Installer"
+                "cwd": "${workspaceFolder}\\XRBuild\\XRPC\\Installer"
             },
             "problemMatcher": []
         },
