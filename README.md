@@ -54,7 +54,10 @@ Make sure to add Oculus SDK by pressing '+'
 If you change your build platform (e.g. from Android to PC) then make sure to update the project settings for that platform (Repeat steps above). 
 
 
-Add XR Player Prefab to scene
+Import XR Support Package from the realse section of this repository
+
+
+Add 'XR Player Oculus' prefab to scene (XRSupport/Prefabs/XR Player Oculus)
 
 
 Plugin Oculus Quest
