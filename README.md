@@ -1,10 +1,7 @@
-# XR Manager Template
+# XR Manager Support
 
-This github template repository includes a full unity project that is setup and ready to go for XR Management for use with Oculus.
+This github repository includes a full unity project that is setup and ready to go for XR Management for use with Oculus.
 It is adivised to instead use the unity package provided in releases and follow the 'XR Manager in a new project' instructions below. 
-
-
-When making a VR unity project for use with XR Management, to save time you can generate a new github repository from this template and be ready to go!
 
 
 **Latest Unity version tested: 2019.3.13f1**
@@ -28,7 +25,7 @@ Make sure to add Oculus SDK by pressing '+'
 If you change your build platform (e.g. from Android to PC) then make sure to update the project settings for that platform (Repeat steps above). 
 
 
-Import XR Support Package from the realse section of this repository
+Import XR Support Package from the releases section of this repository
 
 
 Add 'XR Player Oculus' prefab to scene (XRSupport/Prefabs/XR Player Oculus)
@@ -72,7 +69,7 @@ Choose the exe in the build directory of this project
 
 This should run the application inside the Quest!
 
-# Generating a repository from this template
+# Generating a repository for your project
 Clone this repository
 ```
 git clone https://github.com/KnightVR/XRSupport.git
@@ -107,7 +104,7 @@ Go to Project Settings -> Player -> Change the text in the fields product name /
 
 This is now ready to use, but you can tryout the example scene by opening an example scene:
 ```
-Assets/Scenes/XRTemplate/InteractibleCubeScene
+Assets/Scenes/XRSupport/InteractibleCubeScene
 ```
 
 You can switch between Android and PC development by changing the platform target. The unity project has been full setup for use in both. 
@@ -116,7 +113,7 @@ You can switch between Android and PC development by changing the platform targe
 Unity provides guide on using XR Management Toolkit [here](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@0.9/manual/index.html)
 
 # Unity SteamVR support
-If you would like to use SteamVR in your unity project rather than XR Management then use this [github template repository](https://github.com/KnightVR/SteamVRTemplate) instead.
+If you would like to use SteamVR in your unity project rather than XR Management then use this [github repository](https://github.com/KnightVR/SteamVRSupport) instead.
 
 
 This is neccessary as Unity XR Manager does not support SteamVR. When and if this is added, these two will be joined.
