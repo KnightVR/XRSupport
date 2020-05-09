@@ -9,6 +9,7 @@ class XRAutobuilder
     [MenuItem("File/AutoBuilder/Android")]
     static void AndroidBuild()
     {
+        UpdateVersion();
         EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTargetGroup.Android, BuildTarget.Android);
         string buildPath = "XRBuild/XRAndroid/";
 
@@ -25,6 +26,7 @@ class XRAutobuilder
     [MenuItem("File/AutoBuilder/Win64")]
     static void Win64Build()
     {
+        UpdateVersion();
         EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTargetGroup.Standalone, BuildTarget.StandaloneWindows64);
         string buildPath = "XRBuild/XRPC/Win64/";
 
@@ -36,5 +38,31 @@ class XRAutobuilder
         string appPath = buildPath + Application.productName + ".exe";
 
         BuildPipeline.BuildPlayer(scenes, appPath, BuildTarget.StandaloneWindows64, BuildOptions.None);
+    }
+
+    [MenuItem("File/AutoBuilder/BuildAll")]
+    static void BuildAll()
+    {
+        Win64Build();
+        AndroidBuild();
+    }
+
+    //[MenuItem("File/AutoBuilder/Version")]
+    static void UpdateVersion()
+    {
+        var args = System.Environment.GetCommandLineArgs();
+
+        PlayerSettings.bundleVersion = FindArgsTag(args,"version");
+    }
+
+    static string FindArgsTag(string[] args, string arg){
+        string input = "";
+        for (int i = 0; i < args.Length; i++) {
+            Debug.Log ("ARG " + i + ": " + args [i]);
+            if (args [i] == "-" + arg) {
+                input = args [i + 1];
+            }
+        }
+        return input;
     }
 }
