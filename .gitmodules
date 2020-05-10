@@ -1,6 +1,0 @@
-[submodule "Assets\\KVR\\Logo"]
-	path = Assets\\KVR\\Logo
-	url = https://github.com/KnightVR/Logo
-[submodule "XRBuild"]
-	path = XRBuild
-	url = https://github.com/KnightVR/XRBuild.git
