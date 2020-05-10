@@ -34,4 +34,6 @@ ehthumbs.db
 sysinfo.txt
 *.stackdump
 Temp/*
+Library/*
+Logs/*
 .vs/*
