@@ -1,10 +1,12 @@
 # XR Support
 
 This github repository includes a full unity project that is setup and ready to go for XR Management for use with Oculus.
-It is adivised to instead use the unity package provided in releases and follow the 'XR Management in a new project' instructions below. 
+However, it is adivised to instead use the unity package provided in releases and follow the 'XR Management in a new project' instructions below. 
 
 **Latest Unity version tested: 2019.3.13f1**
+
 **Devices tested: Oculus Quest**
+
 **Platforms tested: Android (Quest), Windows 64 (Virtual Desktop)**
 
 # Features
