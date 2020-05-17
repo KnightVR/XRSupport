@@ -87,7 +87,7 @@ private static string[] scenes = { "Assets/XRSupport/Scenes/InteractableCubeScen
 ```
 
 # XR Management with XR Support in a new project
-Install XR Management Toolkit & XR Plugin Management from the package manager (Window -> Package Manager)
+Install XR Interaction Toolkit & XR Plugin Management from the package manager (Window -> Package Manager)
 
 Make sure to show preview packages (Advanced -> Show preview packages)
 
